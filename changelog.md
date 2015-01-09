@@ -13,3 +13,7 @@ Jan. 7, 2015
 updates due for version 0.2.1
 Jan. 9, 2015
 -spacing fixes for post meta-data (via _s) again
+
+updates due for version 0.2.2
+Jan. 9, 2015
+-removal of unnecessary li tag from nav

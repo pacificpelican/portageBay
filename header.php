@@ -33,7 +33,7 @@
     	 <div class="container">
      		<div class="nav-wrapper"><a id="logo-container" href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home" class="brand-logo"><?php bloginfo( 'name' ); ?></a>
       			<ul id="nav-mobile" class="right side-nav">
-         			 <li><?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?></li>
+         			 <?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?>
        			</ul><a href="#" data-activates="nav-mobile" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
     	  	</div>
    		 </div>
