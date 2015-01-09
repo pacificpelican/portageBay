@@ -103,13 +103,13 @@ function httpdjmcloud_danieljmckeown_com_entry_footer() {
 		/* translators: used between list items, there is a space after the comma */
 		$categories_list = get_the_category_list( __( ', ', 'httpdjmcloud-danieljmckeown-com' ) );
 		if ( $categories_list && httpdjmcloud_danieljmckeown_com_categorized_blog() ) {
-			printf( '<span class="cat-links">' . __( 'Posted in %1$s', 'httpdjmcloud-danieljmckeown-com' ) . '</span>', $categories_list );
+			printf( '<span class="cat-links">' . __( 'Posted in %1$s ', 'httpdjmcloud-danieljmckeown-com' ) . '</span>', $categories_list );
 		}
 
 		/* translators: used between list items, there is a space after the comma */
 		$tags_list = get_the_tag_list( '', __( ', ', 'httpdjmcloud-danieljmckeown-com' ) );
 		if ( $tags_list ) {
-			printf( '<span class="tags-links">' . __( 'Tagged %1$s', 'httpdjmcloud-danieljmckeown-com' ) . '</span>', $tags_list );
+			printf( '<span class="tags-links">' . __( 'Tagged %1$s ', 'httpdjmcloud-danieljmckeown-com' ) . '</span>', $tags_list );
 		}
 	}
 
@@ -119,7 +119,7 @@ function httpdjmcloud_danieljmckeown_com_entry_footer() {
 		echo '</span>';
 	}
 
-	edit_post_link( __( 'Edit', 'httpdjmcloud-danieljmckeown-com' ), '<span class="edit-link">', '</span>' );
+	edit_post_link( __( ' Edit', 'httpdjmcloud-danieljmckeown-com' ), '<span class="edit-link">', '</span>' );
 }
 endif;
 
