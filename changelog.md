@@ -1,6 +1,6 @@
-Portage Bay theme
-change log
-http://djmcloud.danieljmckeown.com/portagebay/
+Portage Bay theme http://djmcloud.danieljmckeown.com/portagebay/
+
+change log ["-" is like a checkbox; "x" is a wontfix; null is a todo]
 
 updates due for version 0.2.0
 Jan. 7, 2015
@@ -17,3 +17,15 @@ Jan. 9, 2015
 updates due for version 0.2.2
 Jan. 9, 2015
 -removal of unnecessary li tag from nav
+
+updates due for version 0.3.0
+Jan. 11, 2015
+-make area below content two equal widget areas horiz. aligned on large, vert. on mobile
+-take blog website live
+
+updates due for version 0.4.0
+Feb. _, 2015
+collapsable element to hide most blog post meta-data replacing pink bar
+navbar improvements (?)
+title [and subtitle?] moved to just above or below nav & nav home logo (??)
+fix: on mobile the next-previous article links at bottom of post overflow
