@@ -23,7 +23,7 @@
 		?>
 	</div><!-- .entry-content -->
 
-	<footer class="entry-footer">
+	<div class="entry-footer card-panel">
 		<?php httpdjmcloud_danieljmckeown_com_entry_footer(); ?>
-	</footer><!-- .entry-footer -->
+	</div><!-- .entry-footer -->
 </article><!-- #post-## -->

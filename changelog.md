@@ -1,6 +1,6 @@
 Portage Bay theme http://djmcloud.danieljmckeown.com/portagebay/
 
-change log ["-" is like a checkbox; "x" is a wontfix; null is a todo]
+change log ["-" is like a checkbox; "x-" is a wontfix; null is a todo]
 
 updates due for version 0.2.0
 Jan. 7, 2015
@@ -24,8 +24,10 @@ Jan. 11, 2015
 -take blog website live
 
 updates due for version 0.4.0
-Feb. _, 2015
-collapsable element to hide most blog post meta-data replacing pink bar
-navbar improvements (?)
-title [and subtitle?] moved to just above or below nav & nav home logo (??)
-fix: on mobile the next-previous article links at bottom of post overflow
+Jan. 12, 2015
+x-collapsable element to hide most blog post meta-data replacing pink bar
+-non-collapsable white card-box type things have replaced the pink bars
+-navbar improvements: home logo with name; optimized appearance
+x-title [and subtitle?] moved to just above or below nav & nav home logo (??)
+-fix: on mobile the next-previous article links at bottom of post overflow
+-widgets are now properly spaced below the content

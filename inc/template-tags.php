@@ -17,20 +17,24 @@ function httpdjmcloud_danieljmckeown_com_paging_nav() {
 		return;
 	}
 	?>
-	<nav class="navigation paging-navigation" role="navigation">
-		<h1 class="screen-reader-text"><?php _e( 'Posts navigation', 'httpdjmcloud-danieljmckeown-com' ); ?></h1>
-		<div class="nav-links">
+	<ul class="collapsible">
+	<?php if ( get_next_posts_link() ) : ?>
+        <li>
+          <div class="collapsible-header">
+			<?php next_posts_link( __( '<span class="meta-nav"><i class="mdi-navigation-arrow-back"></i></span> Older posts', 'httpdjmcloud-danieljmckeown-com' ) ); ?></div>
+			</div>
+        </li>
+    <?php endif; ?>
+    <?php if ( get_previous_posts_link() ) : ?>
+        <li>
+          <div class="collapsible-header">
+			<?php previous_posts_link( __( 'Newer posts <span class="meta-nav"><i class="mdi-navigation-arrow-forward"></i></span>', 'httpdjmcloud-danieljmckeown-com' ) ); ?></div>
+        </li>
+       <?php endif; ?>
+        
+	
 
-			<?php if ( get_next_posts_link() ) : ?>
-			<div class="nav-previous"><?php next_posts_link( __( '<span class="meta-nav">&larr;</span> Older posts', 'httpdjmcloud-danieljmckeown-com' ) ); ?></div>
-			<?php endif; ?>
-
-			<?php if ( get_previous_posts_link() ) : ?>
-			<div class="nav-next"><?php previous_posts_link( __( 'Newer posts <span class="meta-nav">&rarr;</span>', 'httpdjmcloud-danieljmckeown-com' ) ); ?></div>
-			<?php endif; ?>
-
-		</div><!-- .nav-links -->
-	</nav><!-- .navigation -->
+      </ul>
 	<?php
 }
 endif;
@@ -48,15 +52,25 @@ function httpdjmcloud_danieljmckeown_com_post_nav() {
 		return;
 	}
 	?>
-	<nav class="navigation post-navigation" role="navigation">
-		<h1 class="screen-reader-text"><?php _e( 'Post navigation', 'httpdjmcloud-danieljmckeown-com' ); ?></h1>
-		<div class="nav-links">
+	<div class="row">
+        <div class="col s12 m12">
+             <div class="card white-grey darken-1">
+                 <div class="card-content white-text">
+
 			<?php
 				previous_post_link( '<div class="nav-previous">%link</div>', _x( '<span class="meta-nav">&larr;</span>&nbsp;%title', 'Previous post link', 'httpdjmcloud-danieljmckeown-com' ) );
-				next_post_link( '<div class="nav-next">%link</div>', _x( '%title&nbsp;<span class="meta-nav">&rarr;</span>', 'Next post link', 'httpdjmcloud-danieljmckeown-com' ) );
 			?>
-		</div><!-- .nav-links -->
-	</nav><!-- .navigation -->
+		         </div><!-- .card-content -->
+			 
+		<div class="card-content grey-text">
+		<?php 
+		next_post_link( '<div class="nav-next">%link</div>', _x( '%title&nbsp;<span class="meta-nav">&rarr;</span>', 'Next post link', 'httpdjmcloud-danieljmckeown-com' ) );
+		?>
+		</div>
+			 </div>
+	     </div>
+	</div>
+</div>
 	<?php
 }
 endif;
