@@ -39,7 +39,14 @@ if ( ! is_active_sidebar( 'sidebar-1' ) ) {
 			</div>
 
      </div>
+<?php
 
+if ( ! is_active_sidebar( 'sidebar-1' ) ) {
+	if ( ! is_active_sidebar( 'sidebar-2' ) ) {
+	return;
+}
+}
+?>
 		<!--   Icon Section   -->
 		<div class="row">
 			<div class="col s12 m6">
@@ -50,7 +57,11 @@ if ( ! is_active_sidebar( 'sidebar-1' ) ) {
 					</div><!-- #secondary -->
 				</div>
 			</div>
-
+<?php
+	if ( ! is_active_sidebar( 'sidebar-2' ) ) {
+	return;
+}
+?>
 			<div class="col s12 m6">
 				<div class="icon-block">
 					<h2 class="center light-blue-text"><i class="mdi-file-cloud-queue"></i></h2>

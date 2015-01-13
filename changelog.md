@@ -36,3 +36,8 @@ updates for version 0.5.0
 Jan. 13, 2015
 -left sidebar added for large screens which disappears on smaller screens
 -title moved below top nav bar; home logo on right on large and small screens
+-h1 and other tags now styled in a new stylesheet portagebay.css called in header.php
+
+update for version 0.5.1
+Jan. 13, 2015
+-widgets tweak: each section disappears when consecutively unused starting w/bottom right then bottom left
