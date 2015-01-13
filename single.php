@@ -7,7 +7,21 @@
 
 get_header(); ?>
 
-	<div id="primary" class="content-area">
+<div class="row"> 
+    <div class="col s12 m12 l3" id="portagelargeonly">
+				
+				<ul class="section">
+        <li>
+            <div class="section-header">
+            </div>
+                    <div class="section-body">
+							<?php dynamic_sidebar( 'sidebar-3' ); ?>
+					</div><!-- #secondary -->
+        </li>
+      </ul>			
+     </div> 
+
+	<div id="primary" class="content-area col s12 m10 l7">
 		<main id="main" class="site-main" role="main">
 
 		<?php while ( have_posts() ) : the_post(); ?>
@@ -27,6 +41,7 @@ get_header(); ?>
 
 		</main><!-- #main -->
 	</div><!-- #primary -->
+</div>
 
 <?php get_sidebar(); ?>
 <?php get_footer(); ?>

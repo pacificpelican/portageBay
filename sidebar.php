@@ -4,16 +4,41 @@
  *
  * @package Portage Bay
  */
+?>
+
+
+
+
+
+
+
+<?php
 
 if ( ! is_active_sidebar( 'sidebar-1' ) ) {
+	if ( ! is_active_sidebar( 'sidebar-2' ) ) {
+		if ( ! is_active_sidebar( 'sidebar-3' ) ) {
 	return;
+}
+}
 }
 ?>
 
 
 
-<div class="container">
+<div class="container portage2widgets">
 	<div class="section">
+
+	<div class="row" id="portagesmallonly">
+
+			<div class="col s8 m4 l7 offset-l2">
+				<div class="icon-block">
+						 <div id="secondary" class="widget-area" role="complementary">
+							<p class="light"><?php dynamic_sidebar( 'sidebar-3' ); ?></p>
+					     </div><!-- #secondary -->
+				</div>
+			</div>
+
+     </div>
 
 		<!--   Icon Section   -->
 		<div class="row">

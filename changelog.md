@@ -31,3 +31,8 @@ x-collapsable element to hide most blog post meta-data replacing pink bar
 x-title [and subtitle?] moved to just above or below nav & nav home logo (??)
 -fix: on mobile the next-previous article links at bottom of post overflow
 -widgets are now properly spaced below the content
+
+updates for version 0.5.0
+Jan. 13, 2015
+-left sidebar added for large screens which disappears on smaller screens
+-title moved below top nav bar; home logo on right on large and small screens

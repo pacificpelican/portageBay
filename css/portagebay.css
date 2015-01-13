@@ -1,0 +1,56 @@
+/*!
+ * portagebay.css by Dan McKeown
+ *
+ * based on Materialize v0.94.1 (http://materializecss.com)
+ * Copyright 2014-2015 Materialize
+ * MIT License (https://raw.githubusercontent.com/Dogfalo/materialize/master/LICENSE)
+ */
+
+.container {
+  padding: 0 1.5rem;
+  margin: 0 auto;
+  max-width: 1280px;
+  width: 90%; }
+
+@media only screen and (min-width : 601px) {
+  .container {
+    width: 85%; }
+ }
+
+@media only screen and (min-width : 993px) {
+  .portage2 {
+    width: 100%; }
+    #respond
+    {
+    width: 60%; }
+  }
+
+
+  .portage2widgets
+  {
+    width: 64%; }
+ 
+
+ h1 {
+  font-size: 2.7rem;
+  line-height: 2.96rem;
+  margin: 2.1rem 0 1.68rem 0;
+   }
+
+  @media only screen and (max-width : 601px) {
+  h1 {
+     font-size: 2.2rem;
+  line-height: 2.36rem;
+  margin: 1.1rem 0 1.68rem 0;
+ }}
+
+@media only screen and (max-width : 1100px) {
+ #portagelargeonly 
+  { display: none;}
+ }
+
+ @media only screen and (min-width : 1100px) {
+ #portagesmallonly 
+  { display: none;}
+ }
+
