@@ -63,3 +63,8 @@ list-style: none
  #portagesmallonly 
   { display: none;}
  }
+
+ img {
+  height: auto; /* Make sure images are scaled correctly. */
+  max-width: 100%; /* Adhere to container width. */
+}

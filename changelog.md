@@ -49,3 +49,7 @@ Jan. 14, 2015
 update for version 0.5.3
 Jan. 14, 2015
 -404 update
+
+update for version 0.5.4
+Jan. 14, 2015
+-fix for images staying inside containers (partial regression from 0.5.2)
