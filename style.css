@@ -4,7 +4,7 @@ Theme URI: http://djmcloud.danieljmckeown.com/portagebay/
 Author: Dan McKeown
 Author URI: http://danmckeown.info
 Description: a materially responsive theme
-Version: 0.5.1
+Version: 0.5.3
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: httpdjmcloud-danieljmckeown-com
@@ -249,60 +249,7 @@ big {
 	font-size: 125%;
 }
 
-/*--------------------------------------------------------------
-3.0 Elements
---------------------------------------------------------------*/
-hr {
-	background-color: #ccc;
-	border: 0;
-	height: 1px;
-	margin-bottom: 1.5em;
-}
 
-ul,
-ol {
-	margin: 0 0 1.5em 3em;
-}
-
-ul {
-	list-style: disc;
-}
-
-ol {
-	list-style: decimal;
-}
-
-li > ul,
-li > ol {
-	margin-bottom: 0;
-	margin-left: 1.5em;
-}
-
-dt {
-	font-weight: bold;
-}
-
-dd {
-	margin: 0 1.5em 1.5em;
-}
-
-img {
-	height: auto; /* Make sure images are scaled correctly. */
-	max-width: 100%; /* Adhere to container width. */
-}
-
-figure {
-	margin: 0;
-}
-
-table {
-	margin: 0 0 1.5em;
-	width: 100%;
-}
-
-th {
-	font-weight: bold;
-}
 
 /*--------------------------------------------------------------
 4.0 Forms

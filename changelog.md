@@ -41,3 +41,11 @@ Jan. 13, 2015
 update for version 0.5.1
 Jan. 13, 2015
 -widgets tweak: each section disappears when consecutively unused starting w/bottom right then bottom left
+
+update for version 0.5.2
+Jan. 14, 2015
+-eliminated 'elements' section from style.css which cleared up problems with lists showing up in widgets
+
+update for version 0.5.3
+Jan. 14, 2015
+-404 update

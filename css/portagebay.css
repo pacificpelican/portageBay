@@ -1,5 +1,5 @@
 /*!
- * portagebay.css by Dan McKeown
+ * portagebay.css by Dan McKeown (http://danmckeown.info)
  *
  * based on Materialize v0.94.1 (http://materializecss.com)
  * Copyright 2014-2015 Materialize
@@ -25,10 +25,20 @@
     width: 60%; }
   }
 
+ul.section
+{
+list-style: none
+      }
 
-  .portage2widgets
+ul.section li
+{
+list-style: none
+      }
+
+.portage2widgets
   {
-    width: 64%; }
+    width: 64%; 
+  }
  
 
  h1 {
@@ -53,4 +63,3 @@
  #portagesmallonly 
   { display: none;}
  }
-
