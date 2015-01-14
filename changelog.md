@@ -53,3 +53,7 @@ Jan. 14, 2015
 update for version 0.5.4
 Jan. 14, 2015
 -fix for images staying inside containers (partial regression from 0.5.2)
+
+update for version 0.5.5
+Jan. 14, 2015
+-responsive sidebar styling improvements

@@ -30,7 +30,7 @@ if ( ! is_active_sidebar( 'sidebar-1' ) ) {
 
 	<div class="row" id="portagesmallonly">
 
-			<div class="col s8 m4 l7 offset-l2">
+			<div class="col s12 m7 l7 offset-l2">
 				<div class="icon-block">
 						 <div id="secondary" class="widget-area" role="complementary">
 							<p class="light"><?php dynamic_sidebar( 'sidebar-3' ); ?></p>

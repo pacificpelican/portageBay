@@ -58,6 +58,9 @@ list-style: none
  #portagelargeonly 
   { display: none;}
  }
+ #portagesmallonly 
+  {
+    width: 100%; }
 
  @media only screen and (min-width : 1100px) {
  #portagesmallonly 
@@ -68,3 +71,10 @@ list-style: none
   height: auto; /* Make sure images are scaled correctly. */
   max-width: 100%; /* Adhere to container width. */
 }
+
+h1.widget-title {
+  font-size: 1.7rem;
+  line-height: 1.96rem;
+  margin: 1.1rem 0 0.68rem 0;
+}
+
