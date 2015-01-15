@@ -4,26 +4,28 @@ Theme URI: http://djmcloud.danieljmckeown.com/portagebay/
 Author: Dan McKeown
 Author URI: http://danmckeown.info
 Description: a materially responsive theme
-Version: 0.5.5
+Version: 0.5.6
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: httpdjmcloud-danieljmckeown-com
 Tags: responsive, pacificpelican.us, Love Birds Consulting, Material Design
 
-Portage Bay theme is based partly on _s (Underscores) http://underscores.me/, (C) 2012-2015 Automattic, Inc., and
+Portage Bay is developed by Dan McKeown http://danmckeown.info (C) 2015. 
+
+Portage Bay theme is based partly on _s (Underscores) http://underscores.me/, (C) 2012-2015 Automattic, Inc., 
+	[	_s CSS credits:
+				Resetting and rebuilding styles have been helped along thanks to the fine work of
+			Eric Meyer http://meyerweb.com/eric/tools/css/reset/index.html
+			along with Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
+			vertical-align: nd Blueprint http://www.blueprintcss.org/	]
+and
 	partly on Materialize CSS http://materializecss.com/, (C) 2014 Materialize.
 
-This theme, like WordPress, is by Dan McKeown http://danmckeown.info (2015) 
-	& licensed under the GNU GPL: http://www.gnu.org/copyleft/gpl.html
-Use it to make something cool, have fun, and share what you've learned with others.
+This theme, like WordPress is licensed under the GNU GPL: http://www.gnu.org/copyleft/gpl.html.
+It is offered in the hope that it will be useful but without any guarantee.
 
 Materialize CSS is licensed under the MIT license: https://github.com/Dogfalo/materialize/blob/master/LICENSE
 
-via _s CSS credits:
-		Resetting and rebuilding styles have been helped along thanks to the fine work of
-	Eric Meyer http://meyerweb.com/eric/tools/css/reset/index.html
-	along with Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
-	vertical-align: nd Blueprint http://www.blueprintcss.org/
 */
 
 /*--------------------------------------------------------------
