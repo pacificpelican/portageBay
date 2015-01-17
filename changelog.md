@@ -62,3 +62,8 @@ update for version 0.6.0
 Jan. 14, 2015
 -upgraded Materialize to version 0.95.0, this should fix issue with nav bar sticking
 
+update for version 0.6.1
+Jan. 14, 2015
+-footer updated; blue-grey background with white grey text
+
+
