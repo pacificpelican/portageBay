@@ -57,3 +57,8 @@ Jan. 14, 2015
 update for version 0.5.5
 Jan. 14, 2015
 -responsive sidebar styling improvements
+
+update for version 0.6.0
+Jan. 14, 2015
+-upgraded Materialize to version 0.95.0, this should fix issue with nav bar sticking
+
