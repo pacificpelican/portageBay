@@ -69,3 +69,7 @@ Jan. 14, 2015
 update for version 0.6.2
 Jan. 19, 2015
 -edited MaterializeCSS file to eliminate 'select' styling due to incompatibility with WordPress widget
+
+update for version 0.6.3
+Jan. 19, 2015
+-narrowed width of WordPress archives widget
