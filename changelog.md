@@ -66,4 +66,6 @@ update for version 0.6.1
 Jan. 14, 2015
 -footer updated; blue-grey background with white grey text
 
-
+update for version 0.6.2
+Jan. 19, 2015
+-edited MaterializeCSS file to eliminate 'select' styling due to incompatibility with WordPress widget

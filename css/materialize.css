@@ -2,6 +2,9 @@
  * Materialize v0.95.0 (http://materializecss.com)
  * Copyright 2014-2015 Materialize
  * MIT License (https://raw.githubusercontent.com/Dogfalo/materialize/master/LICENSE)
+ * 
+ * Minor edits to this file copyright 2015 by Dan McKeown http://danmckeown.info
+ *
  */
 .materialize-red.lighten-5 {
   background-color: #fdeaeb !important; }
@@ -6321,43 +6324,10 @@ input[type=checkbox]:first-child ~ .lever:active:after, input[type=checkbox][dis
 /***************
   Select Field
 ***************/
-.select-wrapper span.select-dropdown {
-  position: relative;
-  cursor: pointer;
-  color: #444;
-  background-color: transparent;
-  border: none;
-  border-bottom: 1px solid #9e9e9e;
-  outline: none;
-  height: 3rem;
-  line-height: 3rem;
-  width: 100%;
-  font-size: 1rem;
-  margin: 0 0 15px 0;
-  padding: 0;
-  display: block;
-  position: relative; }
-  .select-wrapper span.select-dropdown:after {
-    position: absolute;
-    right: 0;
-    font-size: 23px; }
-
-select {
-  display: none; }
-
-select.browser-default {
-  display: block; }
-
-select:disabled {
-  color: rgba(0, 0, 0, 0.3); }
-
-.select-wrapper span.select-dropdown.disabled {
-  color: rgba(0, 0, 0, 0.3); }
-
-.select-dropdown li.disabled {
-  color: rgba(0, 0, 0, 0.3); }
-  .select-dropdown li.disabled:hover {
-    background-color: transparent; }
+/***  Eliminated entirely due to WordPress widget conflicts
+      ---->Portage Bay theme customization
+      ---->http://djmcloud.danieljmckeown.com/portagebay/
+      ***/
 
 /***************
       Range
