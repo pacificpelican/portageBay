@@ -94,9 +94,8 @@ textarea {
   height: 11rem;
   background-color: transparent; } 
 
- input #url
- {
-  max-width: 100%;
-}
 
+input #url {
+  size: 10;
+}
 

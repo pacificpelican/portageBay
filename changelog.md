@@ -91,3 +91,7 @@ Jan. 19, 2015
 update for version 0.7.3
 Jan. 19, 2015
 -more: styling bugfixe for comments section, input ID url max width set
+
+update for version 0.7.4
+Jan. 19, 2015
+-more: fixed: styling bugfix for comments section, edited functions.php
