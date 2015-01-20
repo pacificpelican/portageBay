@@ -107,3 +107,8 @@ Jan. 19, 2015
 update for version 0.7.7
 Jan. 20, 2015
 -bugfixes for better clickability of sidebar elements
+
+update for version 0.7.8
+Jan. 20, 2015
+-a mouseover function in materialize.js was causing turning 'click-here' symbols into arrows arbitrarily 
+	so it was commemnted out

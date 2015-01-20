@@ -386,6 +386,11 @@ jQuery.extend( jQuery.easing,
     }
 
 
+/*
+//	This section has been commented-out because it caused trouble 
+//	in Portage Bay because it kept turning the mouse symbol to an
+//	arrow rather than a click-here symbol
+//	As of 0.7.7 no mouse-over drop-down events are used in the theme anyway
 
 
     // Hover
@@ -394,6 +399,8 @@ jQuery.extend( jQuery.easing,
       origin.on('mouseover', function(e){ // Mouse over
         placeDropdown();
       });
+
+*/
 
       // Document click handler
       activates.on('mouseleave', function(e){ // Mouse out
