@@ -24,9 +24,9 @@
 
 <?php wp_footer(); ?>
 
-    <script src="<?php bloginfo('template_directory'); ?>/js/jquery-2.1.1.min.js"></script>
-    <script src="<?php bloginfo('template_directory'); ?>/js/materialize.js"></script>
-    <script src="<?php bloginfo('template_directory'); ?>/js/init.js"></script>
+    <script src="<?php echo esc_url( get_template_directory_uri() ); ?>/js/jquery-2.1.1.min.js"></script>
+    <script src="<?php echo esc_url( get_template_directory_uri() ); ?>/js/materialize.js"></script>
+    <script src="<?php echo esc_url( get_template_directory_uri() ); ?>/js/init.js"></script>
 
 </body>
 </html>

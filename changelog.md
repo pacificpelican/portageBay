@@ -99,3 +99,8 @@ Jan. 19, 2015
 update for version 0.7.5
 Jan. 19, 2015
 -narrowed left-hand sidebar in index.php and single.php & also offset content div by 1 (to keep it stationary)
+
+update for version 0.7.6
+Jan. 19, 2015
+-header.php and footer.php updated with esc_url function for getting the theme directory
+
