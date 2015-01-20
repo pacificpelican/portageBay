@@ -8,7 +8,7 @@
 get_header(); ?>
 
 <div class="row"> 
-    <div class="col s12 m12 l3" id="portagelargeonly">
+    <div class="col s12 m12 l2" id="portagelargeonly">
 				
 				<ul class="section">
         <li>
@@ -21,7 +21,7 @@ get_header(); ?>
       </ul>			
      </div> 
 
-	<div id="primary" class="content-area col s12 m10 l7">
+	<div id="primary" class="content-area col s12 m10 l7 offset-l1">
 		<main id="main" class="site-main" role="main">
 
 		<?php while ( have_posts() ) : the_post(); ?>
