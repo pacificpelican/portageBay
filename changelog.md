@@ -104,3 +104,6 @@ update for version 0.7.6
 Jan. 19, 2015
 -header.php and footer.php updated with esc_url function for getting the theme directory
 
+update for version 0.7.7
+Jan. 20, 2015
+-bugfixes for better clickability of sidebar elements

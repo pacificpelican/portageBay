@@ -1689,11 +1689,16 @@ audio:not([controls]) {
 a {
   background: transparent; }
 
+
 /**
  * Improve readability when focused and also mouse hovered in all browsers.
- */
-a:active, a:hover {
+ *
+ a:active, a:hover {
   outline: 0; }
+ *
+ *removed for Portage Bay 
+ */
+
 
 /* Text-level semantics
    ========================================================================== */
@@ -5102,8 +5107,11 @@ nav {
   src: url(../font/roboto/Roboto-Bold.ttf);
   font-weight: 700; }
 
-a {
-  text-decoration: none; }
+/*
+moved a anchor tag clearing to portagebay.css 
+[text-decoration: none]
+
+*/
 
 html {
   line-height: 1.5;

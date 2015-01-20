@@ -31,21 +31,21 @@
     width: 90%; }
   }
 
-ul.section
-{
-list-style: none
-      }
+  ul.section
+  {
+    list-style: none
+  }
 
-ul.section li
-{
-list-style: none
-      }
+  ul.section li
+  {
+    list-style: none
+  }
 
 .portage2widgets
   {
-    width: 88%; 
+    width: 88%;
   }
- 
+
 
  h1 {
   font-size: 2.7rem;
@@ -61,16 +61,16 @@ list-style: none
  }}
 
 @media only screen and (max-width : 1100px) {
- #portagelargeonly 
+ #portagelargeonly
   { display: none;}
 
- #portagesmallonly 
+ #portagesmallonly
   {
     width: 100%; }
      }
 
  @media only screen and (min-width : 1100px) {
- #portagesmallonly 
+ #portagesmallonly
   { display: none;}
  }
 
@@ -90,12 +90,25 @@ h1.widget-title {
 }
 
 textarea {
-  width: 99%;
+  width: 96%;
   height: 11rem;
-  background-color: transparent; } 
-
+  background-color: transparent; }
 
 input #url {
   size: 10;
 }
 
+li.page_item
+{
+  list-style: none
+}
+
+li.a
+ {
+  color: inherit;
+  text-decoration: none;
+  font-weight: inherit;
+}
+
+a {
+  text-decoration: none; }
