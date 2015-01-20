@@ -83,3 +83,7 @@ Jan. 19, 2015
 update for version 0.7.1
 Jan. 19, 2015
 -added media query in portagebay.css to narrow padding on phone view for better readability
+
+update for version 0.7.2
+Jan. 19, 2015
+-styling bugfixes for comments section

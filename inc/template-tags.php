@@ -52,8 +52,8 @@ function httpdjmcloud_danieljmckeown_com_post_nav() {
 		return;
 	}
 	?>
-	<div class="row">
-        <div class="col s12 m12">
+	<div>
+        <div>
              <div class="card white-grey darken-1">
                  <div class="card-content white-text">
 
@@ -69,7 +69,7 @@ function httpdjmcloud_danieljmckeown_com_post_nav() {
 		</div>
 			 </div>
 	     </div>
-	</div>
+	
 </div>
 	<?php
 }
