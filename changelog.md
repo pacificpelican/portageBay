@@ -80,3 +80,6 @@ Jan. 19, 2015
 	-for phones the (sidebar1) widget area width is expanded to 88% from ~60% (in portagebay.css)
 	-for tablets the widget area is expanded via the grid from m8 to m11 (in sidebar.php)
 
+update for version 0.7.1
+Jan. 19, 2015
+-added media query in portagebay.css to narrow padding on phone view for better readability
