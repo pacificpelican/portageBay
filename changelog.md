@@ -73,3 +73,10 @@ Jan. 19, 2015
 update for version 0.6.3
 Jan. 19, 2015
 -narrowed width of WordPress archives widget
+
+update for version 0.7.0
+Jan. 19, 2015
+-widget styling improvements:
+	-for phones the (sidebar1) widget area width is expanded to 88% from ~60% (in portagebay.css)
+	-for tablets the widget area is expanded via the grid from m8 to m11 (in sidebar.php)
+
