@@ -126,3 +126,8 @@ Jan. 20, 2015
 update for version 0.7.11
 Jan. 20, 2015
 -layout fix: div count should be about right now for main page and single post
+
+update for version 0.7.12
+Jan. 20, 2015
+-changed class of a div in sidebar.php from 'row' to 'notrow' so it doesn't interfere with left sidebar
+

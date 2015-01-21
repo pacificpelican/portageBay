@@ -48,7 +48,7 @@ if ( ! is_active_sidebar( 'sidebar-1' ) ) {
 }
 ?>
 		<!--   Icon Section   -->
-		<div class="row">
+		<div class="notrow">
 			<div class="col s12 m6">
 				<div class="icon-block">
 					<h2 class="center light-blue-text"><i class="mdi-content-send"></i></h2>
