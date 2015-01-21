@@ -118,3 +118,7 @@ Jan. 20, 2015
 -changes in 0.7.8 killed the responsive nav bar so they are gone; materialize.min.js now used for speed
 -lots of bugfix changes to markup and CSS
 -putting it inside a div with class 'container' fixed the mouseover problems in the left sidebar
+
+update for version 0.7.10
+Jan. 20, 2015
+-layout fix: added closing div for sidebar.php

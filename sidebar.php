@@ -75,3 +75,4 @@ if ( ! is_active_sidebar( 'sidebar-1' ) ) {
 		</div>
 
 	</div>
+</div><!-- portage2widgets -->
