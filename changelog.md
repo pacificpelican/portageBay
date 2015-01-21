@@ -147,3 +147,7 @@ Jan. 20, 2015
 update for version 0.8.0
 Jan. 20, 2015
 -code cleanup; new attempts to style widget elements; new milestone version
+
+update for version 0.8.1
+Jan. 21, 2015
+-layout harmonization: index.php and single.php have more similar markup

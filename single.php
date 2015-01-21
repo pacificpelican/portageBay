@@ -26,7 +26,7 @@ get_header(); ?>
 	
 
 
-	<div id="primary" class="content-area col s12 m10 l7 offset-l1">
+	<div id="primary" class="content-area col s12 m10 l6 offset-l1">
 		<main id="main" class="site-main" role="main">
 
 		<?php while ( have_posts() ) : the_post(); ?>
