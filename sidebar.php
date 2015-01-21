@@ -48,7 +48,7 @@ if ( ! is_active_sidebar( 'sidebar-1' ) ) {
 }
 ?>
 		<!--   Icon Section   -->
-		<div class="notrow">
+		<div class="row">
 			<div class="col s12 m6">
 				<div class="icon-block">
 					<h2 class="center light-blue-text"><i class="mdi-content-send"></i></h2>
@@ -76,3 +76,5 @@ if ( ! is_active_sidebar( 'sidebar-1' ) ) {
 
 	</div>
 </div><!-- portage2widgets -->
+</div>
+</div>

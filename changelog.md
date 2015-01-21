@@ -131,3 +131,6 @@ update for version 0.7.12
 Jan. 20, 2015
 -changed class of a div in sidebar.php from 'row' to 'notrow' so it doesn't interfere with left sidebar
 
+update for version 0.7.13
+Jan. 20, 2015
+-another div fix and 'notrow' named back to 'row'

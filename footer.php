@@ -10,7 +10,7 @@
 
 	
 
-</div><!--  end of site-content container portage2 -->
+<div id="portagethefooter">
 
 	<footer id="colophon" class="site-footer" role="contentinfo">
 		<div class="card-content blue-grey white-text">
@@ -20,9 +20,10 @@
 		</center>
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->
+</div><!-- portagethefooter -->
 
 
-</div><!-- #page -->
+
 
 <?php wp_footer(); ?>
 
