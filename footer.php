@@ -8,7 +8,9 @@
  */
 ?>
 
-	</div><!-- #content -->
+	
+
+</div><!--  end of site-content container portage2 -->
 
 	<footer id="colophon" class="site-footer" role="contentinfo">
 		<div class="card-content blue-grey white-text">

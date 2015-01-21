@@ -122,3 +122,7 @@ Jan. 20, 2015
 update for version 0.7.10
 Jan. 20, 2015
 -layout fix: added closing div for sidebar.php
+
+update for version 0.7.11
+Jan. 20, 2015
+-layout fix: div count should be about right now for main page and single post
