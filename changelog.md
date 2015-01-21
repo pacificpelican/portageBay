@@ -138,3 +138,11 @@ Jan. 20, 2015
 update for version 0.7.14
 Jan. 20, 2015
 -more layout bugfixes
+
+update for version 0.7.14
+Jan. 20, 2015
+-more layout changes:
+	should work now when user uses below left widget but not below right widget
+
+
+

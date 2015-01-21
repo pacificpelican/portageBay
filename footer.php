@@ -23,7 +23,7 @@
 </div><!-- portagethefooter -->
 
 
-
+<!-- smoke weed every day -->
 
 <?php wp_footer(); ?>
 

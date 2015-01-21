@@ -51,7 +51,7 @@ if ( ! is_active_sidebar( 'sidebar-1' ) ) {
 ?>
 		<!--   Icon Section   -->
 		<div class="row">
-			<div class="col s12 m6 l5">
+			<div class="col s12 m6 l5 offset-l2">
 				<div class="icon-block">
 					<h2 class="center light-blue-text"><i class="mdi-content-send"></i></h2>
 						<div id="secondary" class="widget-area" role="complementary">
@@ -61,15 +61,16 @@ if ( ! is_active_sidebar( 'sidebar-1' ) ) {
 			</div>
 <?php
 	if ( ! is_active_sidebar( 'sidebar-2' ) ) {
-	return;
+			echo "</div></div><!-- portage2widgets -->";
+			return;
 }
 ?>
-			<div class="col s12 m6 l5">
+			<div class="col s12 m6 l4 offset-r2">
 				<div class="icon-block">
 					<h2 class="center light-blue-text"><i class="mdi-file-cloud-queue"></i></h2>
 						<div id="secondary2" class="widget-area" role="complementary">
 							<p class="light"><?php dynamic_sidebar( 'sidebar-2' ); ?></p>
-					</div><!-- #secondary -->
+						</div><!-- #secondary -->
 				</div>
 			</div>
 
