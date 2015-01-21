@@ -112,3 +112,9 @@ update for version 0.7.8
 Jan. 20, 2015
 -a mouseover function in materialize.js was causing turning 'click-here' symbols into arrows arbitrarily 
 	so it was commemnted out
+
+update for version 0.7.9
+Jan. 20, 2015
+-changes in 0.7.8 killed the responsive nav bar so they are gone; materialize.min.js now used for speed
+-lots of bugfix changes to markup and CSS
+-putting it inside a div with class 'container' fixed the mouseover problems in the left sidebar

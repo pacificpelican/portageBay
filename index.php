@@ -15,20 +15,19 @@ get_header(); ?>
 
 <div class="row">   
 
+	
+<div class="container" id="bigscreenwidgets">	
    <div class="col s12 m12 l2" id="portagelargeonly">
-				
-				<ul class="section">
-        <li>
-            <div class="section-header">
-            </div>
-                    <div class="section-body">
-							<?php dynamic_sidebar( 'sidebar-3' ); ?>
-					</div><!-- #secondary -->
-        </li>
-      </ul>			
-    </div> 
+				<div class="icon-block">
+						 <div id="override" class="widget-area" role="complementary">
+							<p class="dark"><?php dynamic_sidebar( 'sidebar-3' ); ?></p>
+					     </div><!-- #secondary -->
+				</div> 	
+	</div>
+</div> 
 
-	<div class="content-area col s12 m10 l7 offset-l1" id="keycontentarea">
+
+	<div class="content-area col s11 m10 l6 offset-l1 container" id="keycontentarea">
 
 		<main id="main" class="site-main" role="main">
 	
@@ -60,8 +59,7 @@ get_header(); ?>
 	</div><!-- #primary -->
 
 
-
-</div>
+ 
 
 
 

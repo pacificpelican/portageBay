@@ -22,7 +22,7 @@
 </head>
 
 <body <?php body_class(); ?>>
-
+<div id="megacontainer">
 
 <div id="page" class="hfeed site">
 	<a class="skip-link screen-reader-text" href="#content"><?php _e( 'Skip to content', 'httpdjmcloud-danieljmckeown-com' ); ?></a>    
@@ -39,6 +39,8 @@
  		</nav>
  		<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home" class="waves-effect waves-light btn-large white-text"><h4><?php bloginfo( 'name' ); ?></h4></a>
 	</header><!-- #masthead -->
+  </div>
+
 
 	<div id="content" class="site-content container portage2">
 	
