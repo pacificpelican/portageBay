@@ -1,6 +1,10 @@
 This is the readme file for the [Portage Bay](http://djmcloud.danieljmckeown.com/portagebay/) theme for [WordPress](http://wordpress.org).
 
-Portage Bay is from [Dan McKeown](http://danmckeown.info).
+Portage Bay was created by [Dan McKeown](http://danmckeown.info) in Seattle, Washington, (C) 2015.
+
+This theme used the [MaterializeCSS](https://github.com/Dogfalo/materialize) project as a front-end framework and [_s](https://github.com/Automattic/_s) as a starting back-end.
+
+The design buzzwords "bold" and "intentional" certainly apply to this large-text, bright-colored responsive theme.
 
 More information can be found in the [style.css file](style.css) file.
 

@@ -30,7 +30,7 @@
     #respond
     {
     width: 90%; }
-   
+
   }
 
   ul.section
@@ -75,9 +75,9 @@
 #portagelargeonly {
 
     padding: 0 0rem;
-   
+
     vertical-align: left;
-  
+
 }
 
  @media only screen and (min-width : 1100px) {
@@ -125,7 +125,26 @@ a {
   text-decoration: none; }
 
 select {
-  width:76%;max-width:76%;
+  width:76%;
+  max-width:76%;
 }
 
+select #cat {
+  width:73%;
+  max-width:73%;
+}
 
+table {
+  width:56%;
+  max-width:56%;
+  border-collapse: collapse;
+  display: table;
+}
+
+div #calendar_wrap {
+
+    width:56%;
+    max-width:56%;
+
+
+}

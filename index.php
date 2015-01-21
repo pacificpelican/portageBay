@@ -13,24 +13,21 @@
 
 get_header(); ?>
 
-<div class="row">   
+<div class="row">
 
-	
-<div class="container" id="bigscreenwidgets">	
+<div class="container" id="bigscreenwidgets">
    <div class="col s12 m12 l2" id="portagelargeonly">
 				<div class="icon-block">
 						 <div id="override" class="widget-area" role="complementary">
 							<p class="dark"><?php dynamic_sidebar( 'sidebar-3' ); ?></p>
 					     </div><!-- #secondary -->
-				</div> 	
+				</div>
 	</div>
-</div> 
-
+</div>
 
 	<div class="content-area col s11 m10 l6 offset-l1 container" id="keycontentarea">
 
 		<main id="main" class="site-main" role="main">
-	
 
 		<?php if ( have_posts() ) : ?>
 
@@ -54,15 +51,9 @@ get_header(); ?>
 			<?php get_template_part( 'content', 'none' ); ?>
 
 		<?php endif; ?>
-	
+
 		</main><!-- #main -->
 	</div><!-- #primary -->
-
-
- 
-
-
-
 
 <?php get_sidebar(); ?>
 <?php get_footer(); ?>

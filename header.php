@@ -25,7 +25,7 @@
 <div id="megacontainer">
 
 <div id="page" class="hfeed site">
-	<a class="skip-link screen-reader-text" href="#content"><?php _e( 'Skip to content', 'httpdjmcloud-danieljmckeown-com' ); ?></a>    
+	<a class="skip-link screen-reader-text" href="#content"><?php _e( 'Skip to content', 'httpdjmcloud-danieljmckeown-com' ); ?></a>
 
 	<header id="masthead" class="site-header" role="banner">
 		<nav class="light-blue lighten-1" role="navigation">
@@ -41,6 +41,4 @@
 	</header><!-- #masthead -->
   </div>
 
-
-	<div id="content" class="site-content container portage2">
-	
+<div id="content" class="site-content container portage2">

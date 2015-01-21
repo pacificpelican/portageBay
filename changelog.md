@@ -110,7 +110,7 @@ Jan. 20, 2015
 
 update for version 0.7.8
 Jan. 20, 2015
--a mouseover function in materialize.js was causing turning 'click-here' symbols into arrows arbitrarily 
+-a mouseover function in materialize.js was causing turning 'click-here' symbols into arrows arbitrarily
 	so it was commemnted out
 
 update for version 0.7.9
@@ -144,5 +144,6 @@ Jan. 20, 2015
 -more layout changes:
 	should work now when user uses below left widget but not below right widget
 
-
-
+update for version 0.8.0
+Jan. 20, 2015
+-code cleanup; new attempts to style widget elements; new milestone version
