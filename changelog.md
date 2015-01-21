@@ -134,3 +134,7 @@ Jan. 20, 2015
 update for version 0.7.13
 Jan. 20, 2015
 -another div fix and 'notrow' named back to 'row'
+
+update for version 0.7.14
+Jan. 20, 2015
+-more layout bugfixes

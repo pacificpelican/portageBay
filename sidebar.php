@@ -9,7 +9,7 @@
 
 
 
-
+</div><!-- end of row 1 -->
 
 
 <?php
@@ -28,17 +28,19 @@ if ( ! is_active_sidebar( 'sidebar-1' ) ) {
 <div class="container portage2widgets">
 	<div class="section">
 
-	<div class="row" id="portagesmallonly">
+			<div class="row" id="portagesmallonly">
 
-			<div class="col s12 m11 l7 offset-l2">
-				<div class="icon-block">
+				<div class="col s12 m11 l7 offset-l2">
+					<div class="icon-block">
 						 <div id="secondary" class="widget-area" role="complementary">
 							<p class="light"><?php dynamic_sidebar( 'sidebar-3' ); ?></p>
 					     </div><!-- #secondary -->
+					</div>
 				</div>
-			</div>
 
-     </div>
+			</div>
+	</div>
+</div>
 <?php
 
 if ( ! is_active_sidebar( 'sidebar-1' ) ) {
@@ -49,7 +51,7 @@ if ( ! is_active_sidebar( 'sidebar-1' ) ) {
 ?>
 		<!--   Icon Section   -->
 		<div class="row">
-			<div class="col s12 m6">
+			<div class="col s12 m6 l5">
 				<div class="icon-block">
 					<h2 class="center light-blue-text"><i class="mdi-content-send"></i></h2>
 						<div id="secondary" class="widget-area" role="complementary">
@@ -62,7 +64,7 @@ if ( ! is_active_sidebar( 'sidebar-1' ) ) {
 	return;
 }
 ?>
-			<div class="col s12 m6">
+			<div class="col s12 m6 l5">
 				<div class="icon-block">
 					<h2 class="center light-blue-text"><i class="mdi-file-cloud-queue"></i></h2>
 						<div id="secondary2" class="widget-area" role="complementary">
@@ -74,7 +76,6 @@ if ( ! is_active_sidebar( 'sidebar-1' ) ) {
 
 		</div>
 
-	</div>
+	
 </div><!-- portage2widgets -->
-</div>
-</div>
+
