@@ -7,13 +7,31 @@
 
 get_header(); ?>
 
-	<section id="primary" class="content-area">
+
+<div class="row">
+<div class="container" id="bigscreenwidgets">
+   <div class="col s12 m12 l2 container" id="portagelargeonly">
+   <ul class="section">
+        <li>
+            <div class="section-header">
+            </div>
+                    	<div class="section-body">
+				<?php dynamic_sidebar( 'sidebar-3' ); ?>
+					     </div><!-- #secondary -->
+				</li>
+      </ul>	
+	</div>
+</div>
+
+	<div class="content-area col s11 m10 l6 offset-l1" id="keycontentarea">
+
+		<section id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
 
 		<?php if ( have_posts() ) : ?>
 
 			<header class="page-header">
-				<h1 class="page-title"><?php printf( __( 'Search Results for: %s', 'httpdjmcloud-danieljmckeown-com' ), '<span>' . get_search_query() . '</span>' ); ?></h1>
+				<h1 class="page-title"><?php printf( __( 'Search Results for: %s', '_s' ), '<span>' . get_search_query() . '</span>' ); ?></h1>
 			</header><!-- .page-header -->
 
 			<?php /* Start the Loop */ ?>
@@ -30,7 +48,7 @@ get_header(); ?>
 
 			<?php endwhile; ?>
 
-			<?php httpdjmcloud_danieljmckeown_com_paging_nav(); ?>
+			<?php the_posts_navigation(); ?>
 
 		<?php else : ?>
 
@@ -40,6 +58,9 @@ get_header(); ?>
 
 		</main><!-- #main -->
 	</section><!-- #primary -->
+
+	</div><!-- #primary -->
+
 
 <?php get_sidebar(); ?>
 <?php get_footer(); ?>

@@ -151,3 +151,7 @@ Jan. 20, 2015
 update for version 0.8.1
 Jan. 21, 2015
 -layout harmonization: index.php and single.php have more similar markup
+
+update for version 0.8.2
+Jan. 22, 2015
+-added IDs to divs and put left sidebar in (and more consistent markup) search results

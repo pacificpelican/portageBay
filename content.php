@@ -15,7 +15,7 @@
 		<?php endif; ?>
 	</header><!-- .entry-header -->
 
-	<div class="entry-content">
+	<div class="entry-content" id="portagebay-post">
 		<?php
 			/* translators: %s: Name of current post */
 			the_content( sprintf(
@@ -32,7 +32,7 @@
 		?>
 	</div><!-- .entry-content -->
 
-	<div class="entry-footer card-panel">
+	<div class="entry-footer card-panel" id="portagebay-entryfooter">
 		<?php httpdjmcloud_danieljmckeown_com_entry_footer(); ?>
 	</div><!-- .entry-footer -->
 </article><!-- #post-## -->
