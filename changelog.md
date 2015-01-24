@@ -169,3 +169,8 @@ Jan. 23, 2015
 update for version 0.9.2
 Jan. 23, 2015
 -load CSS WP-style
+
+update for version 0.9.3
+Jan. 23, 2015
+-archive pages (those displaying categories, tags, and date-based archives) now conform to post style
+
