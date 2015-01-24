@@ -165,7 +165,7 @@ update for version 0.9.1
 Jan. 23, 2015
 -bugfix: Zepto is out, jQuery 1.11.1 is back in;
 	a random plugin probably messed up my testing earlier by loading jQuery (??)
-	
+
 update for version 0.9.2
 Jan. 23, 2015
 -load CSS WP-style
@@ -174,3 +174,6 @@ update for version 0.9.3
 Jan. 23, 2015
 -archive pages (those displaying categories, tags, and date-based archives) now conform to post style
 
+update for version 0.9.4
+Jan. 23, 2015
+-404 layout now conforms with posts (except it loads left-responsive sidebar and not 2 lower ones)
