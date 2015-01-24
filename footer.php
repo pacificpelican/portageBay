@@ -23,13 +23,11 @@
 </div><!-- portagethefooter -->
 
 
-<!-- smoke weed every day -->
+<?php //  smoke weed every day ?>
 
 <?php wp_footer(); ?>
 
-    <script src="<?php echo esc_url( get_template_directory_uri() ); ?>/js/jquery-2.1.1.min.js"></script>
-    <script src="<?php echo esc_url( get_template_directory_uri() ); ?>/js/materialize.min.js"></script>
-    <script src="<?php echo esc_url( get_template_directory_uri() ); ?>/js/init.js"></script>
+
 
 </div><!-- megacontainer -->
 

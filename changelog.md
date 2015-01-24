@@ -155,3 +155,9 @@ Jan. 21, 2015
 update for version 0.8.2
 Jan. 22, 2015
 -added IDs to divs and put left sidebar in (and more consistent markup) search results
+
+update for version 0.9.0
+Jan. 23, 2015
+-load JavaScript WP-style: used wp_register_script() and wp_enqueue_script() to load JS
+-using Zepto instead of jQuery for Materialize purposes due to WP treatment of $
+
