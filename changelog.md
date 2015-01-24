@@ -161,3 +161,8 @@ Jan. 23, 2015
 -load JavaScript WP-style: used wp_register_script() and wp_enqueue_script() to load JS
 -using Zepto instead of jQuery for Materialize purposes due to WP treatment of $
 
+update for version 0.9.1
+Jan. 23, 2015
+-bugfix: Zepto is out, jQuery 1.11.1 is back in;
+	a random plugin probably messed up my testing earlier by loading jQuery (??)
+	

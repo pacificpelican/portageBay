@@ -160,7 +160,7 @@ function theme_name_scripts() {
 
 $themeloc = esc_url( get_template_directory_uri() );
 
-$srcjqtoo = "$themeloc/js/zepto.min.js";
+$srcjqtoo = "$themeloc/js/jquery-1.11.1.min.js";
 
 $srcmaterial = "$themeloc/js/materialize.min.js";
 
