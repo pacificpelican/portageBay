@@ -15,9 +15,7 @@
 
 <?php wp_head(); ?>
 
-    <link href="<?php echo esc_url( get_template_directory_uri() ); ?>/css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-    <link href="<?php echo esc_url( get_template_directory_uri() ); ?>/css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-    <link href="<?php echo esc_url( get_template_directory_uri() ); ?>/css/portagebay.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+   
 
 </head>
 

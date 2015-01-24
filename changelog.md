@@ -166,3 +166,6 @@ Jan. 23, 2015
 -bugfix: Zepto is out, jQuery 1.11.1 is back in;
 	a random plugin probably messed up my testing earlier by loading jQuery (??)
 	
+update for version 0.9.2
+Jan. 23, 2015
+-load CSS WP-style

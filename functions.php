@@ -156,15 +156,38 @@ require get_template_directory() . '/inc/customizer.php';
 require get_template_directory() . '/inc/jetpack.php';
 
 
+
 function theme_name_scripts() {
 
 $themeloc = esc_url( get_template_directory_uri() );
 
-$srcjqtoo = "$themeloc/js/jquery-1.11.1.min.js";
+// -----------------------------
 
-$srcmaterial = "$themeloc/js/materialize.min.js";
+	$srcmaterialcss = "$themeloc/css/materialize.css";
 
-$src6init = "$themeloc/js/init.js";
+	$srcmaterialextrastyle = "$themeloc/css/style.css";
+
+	$srcportagecss = "$themeloc/css/portagebay.css";
+
+wp_register_style( "materialcss", $srcmaterialcss );
+
+wp_register_style( "materialextrastyle", $srcmaterialextrastyle );
+
+wp_register_style( "portagecss", $srcportagecss );
+
+wp_enqueue_style( "materialcss", $srcmaterialcss );
+
+wp_enqueue_style( "materialextrastyle", $srcmaterialextrastyle );
+
+wp_enqueue_style( "portagecss", $srcportagecss );
+
+//  ----------------------------
+
+	$srcjqtoo = "$themeloc/js/jquery-1.11.1.min.js";
+
+	$srcmaterial = "$themeloc/js/materialize.min.js";
+
+	$src6init = "$themeloc/js/init.js";
 
 wp_register_script( "portjqry", $srcjqtoo );
 
