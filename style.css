@@ -4,7 +4,7 @@ Theme URI: http://djmcloud.danieljmckeown.com/portagebay/
 Author: Dan McKeown
 Author URI: http://danmckeown.info
 Description: a materially responsive theme
-Version: 0.9.5
+Version: 1.0.0
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: httpdjmcloud-danieljmckeown-com
@@ -13,9 +13,9 @@ Tags: responsive, pacificpelican.us, Love Birds Consulting, Material Design
 Portage Bay is developed in Seattle by Dan McKeown http://danmckeown.info (C) 2015.
 
 Portage Bay theme is based:
-	partly on _s (Underscores) v1.0-wpcom http://underscores.me/, (C) 2012-2015 Automattic, Inc.,
+	partly on _s (Underscores) v1.0 http://underscores.me/ (C) 2012-2015 Automattic, Inc.,
 			and
-	partly on Materialize CSS v0.95 http://materializecss.com/, (C) 2015 Materialize.
+	partly on Materialize CSS v0.95 http://materializecss.com/ (C) 2015 Materialize.
 
 This theme, like WordPress is licensed under the GNU GPL:
 http://www.gnu.org/copyleft/gpl.html
@@ -37,7 +37,6 @@ and Blueprint http://www.blueprintcss.org/	]
 ----------------------------------------------------------------
 1.0 Reset
 2.0 Typography
-3.0 Elements
 4.0 Forms
 5.0 Navigation
 	5.1 Links
@@ -54,6 +53,11 @@ and Blueprint http://www.blueprintcss.org/	]
 12.0 Media
 	12.1 Captions
 	12.2 Galleries
+
+NOTE: Additional style sheets are called by this theme:
+materialize.css
+style.css
+portagebay.css
 --------------------------------------------------------------*/
 
 /*--------------------------------------------------------------

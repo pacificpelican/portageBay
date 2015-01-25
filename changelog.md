@@ -181,3 +181,12 @@ Jan. 23, 2015
 update for version 0.9.5
 Jan. 25, 2015
 -'allowed tags' no longer take up space in posts with comments; used CSS to make it not appear
+
+update for version 0.9.6
+Jan. 25, 2015
+-screenshot update and style.css edits
+-more IDs added to markup
+
+update for version 1.0.0
+Jan. 25, 2015
+-FIRST RELEASE VERSION

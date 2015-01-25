@@ -26,7 +26,7 @@ if ( ! is_active_sidebar( 'sidebar-1' ) ) {
 
 
 <div class="container portage2widgets">
-	<div class="section">
+	<div class="section" id="portageresponsivelowerwidgets">
 
 			<div class="row" id="portagesmallonly">
 
@@ -50,8 +50,8 @@ if ( ! is_active_sidebar( 'sidebar-1' ) ) {
 }
 ?>
 		<!--   Icon Section   -->
-		<div class="row">
-			<div class="col s12 m6 l5 offset-l2">
+		<div class="row" id="portagelowerwidgetscontainer">
+			<div class="col s12 m6 l5 offset-l2" id="portagelowerleftwidgets">
 				<div class="icon-block">
 					<h2 class="center light-blue-text"><i class="mdi-content-send"></i></h2>
 						<div id="secondary" class="widget-area" role="complementary">
@@ -65,7 +65,7 @@ if ( ! is_active_sidebar( 'sidebar-1' ) ) {
 			return;
 }
 ?>
-			<div class="col s12 m6 l4 offset-r2">
+			<div class="col s12 m6 l4 offset-r2" id="portagelowerrightwidgets">
 				<div class="icon-block">
 					<h2 class="center light-blue-text"><i class="mdi-file-cloud-queue"></i></h2>
 						<div id="secondary2" class="widget-area" role="complementary">
@@ -77,6 +77,5 @@ if ( ! is_active_sidebar( 'sidebar-1' ) ) {
 
 		</div>
 
-	
-</div><!-- portage2widgets -->
 
+</div><!-- portage2widgets -->

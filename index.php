@@ -13,7 +13,7 @@
 
 get_header(); ?>
 
-<div class="row">
+<div class="row" id="portageuppercontent">
 <div class="container" id="bigscreenwidgets">
    <div class="col s12 m12 l2 container" id="portagelargeonly">
    <ul class="section">
@@ -24,7 +24,7 @@ get_header(); ?>
 				<?php dynamic_sidebar( 'sidebar-3' ); ?>
 					     </div><!-- #secondary -->
 				</li>
-      </ul>	
+      </ul>
 	</div>
 </div>
 
