@@ -20,7 +20,7 @@
 
 		<?php elseif ( is_search() ) : ?>
 
-			<p><?php _e( 'Nothing matched your search terms. Please try again with some different keywords.', 'httpdjmcloud-danieljmckeown-com' ); ?></p>
+			<p><?php _e( 'Nothing matched your search terms. You can try again with some different keywords.', 'httpdjmcloud-danieljmckeown-com' ); ?></p>
 			<?php get_search_form(); ?>
 
 		<?php else : ?>

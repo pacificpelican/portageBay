@@ -148,3 +148,8 @@ div #calendar_wrap {
 
 
 }
+
+.form-allowed-tags {
+    display:none !important;
+}
+

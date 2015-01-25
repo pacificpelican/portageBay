@@ -177,3 +177,7 @@ Jan. 23, 2015
 update for version 0.9.4
 Jan. 23, 2015
 -404 layout now conforms with posts (except it loads left-responsive sidebar and not 2 lower ones)
+
+update for version 0.9.5
+Jan. 25, 2015
+-'allowed tags' no longer take up space in posts with comments; used CSS to make it not appear
