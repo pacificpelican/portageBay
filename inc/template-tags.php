@@ -17,24 +17,23 @@ function httpdjmcloud_danieljmckeown_com_paging_nav() {
 		return;
 	}
 	?>
-	<ul class="collapsible">
+	<ul class="collapsible" id="older-posts-area">
 	<?php if ( get_next_posts_link() ) : ?>
         <li>
           <div class="collapsible-header">
-			<?php next_posts_link( __( '<span class="meta-nav"><i class="mdi-navigation-arrow-back"></i></span> Older posts', 'httpdjmcloud-danieljmckeown-com' ) ); ?></div>
+			<?php next_posts_link( __( '<span class="meta-nav"><i class="mdi-navigation-arrow-back"></i></span> Older posts', 'httpdjmcloud-danieljmckeown-com' ) ); ?>
 			</div>
         </li>
     <?php endif; ?>
+    </ul><!-- .collapsible -->
+    <ul class="collapsible" id="newer-posts-area">
     <?php if ( get_previous_posts_link() ) : ?>
         <li>
           <div class="collapsible-header">
-			<?php previous_posts_link( __( 'Newer posts <span class="meta-nav"><i class="mdi-navigation-arrow-forward"></i></span>', 'httpdjmcloud-danieljmckeown-com' ) ); ?></div>
+			<?php previous_posts_link( __( '<span class="meta-nav"><i class="mdi-navigation-arrow-forward"></i></span> Newer posts', 'httpdjmcloud-danieljmckeown-com' ) ); ?>
         </li>
        <?php endif; ?>
-        
-	
-
-      </ul>
+      </ul><!-- #newer-posts-area -->
 	<?php
 }
 endif;

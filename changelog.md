@@ -190,3 +190,8 @@ Jan. 25, 2015
 update for version 1.0.0
 Jan. 25, 2015
 -FIRST RELEASE VERSION
+
+update for version 1.0.1
+March 4, 2015
+-fixes in template-tags.php to keep newer posts navigation at bottom of archives pages:
+should solve https://github.com/pacificpelican/portageBay/issues/4

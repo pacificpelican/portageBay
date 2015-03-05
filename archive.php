@@ -50,9 +50,9 @@ get_header(); ?>
 				?>
 
 			<?php endwhile; ?>
-
+			
 			<?php httpdjmcloud_danieljmckeown_com_paging_nav(); ?>
-
+			
 		<?php else : ?>
 
 			<?php get_template_part( 'content', 'none' ); ?>
