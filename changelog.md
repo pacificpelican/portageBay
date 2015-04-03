@@ -195,3 +195,8 @@ update for version 1.0.1
 March 4, 2015
 -fixes in template-tags.php to keep newer posts navigation at bottom of archives pages:
 should solve https://github.com/pacificpelican/portageBay/issues/4
+
+update for version 1.0.2
+April 2, 2015
+-removed the following from style.css due to wordpress.org theme rules:
+	'responsive, pacificpelican.us, Love Birds Consulting, Material Design'
