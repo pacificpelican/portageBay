@@ -200,3 +200,7 @@ update for version 1.0.2
 April 2, 2015
 -removed the following from style.css due to wordpress.org theme rules:
 	'responsive, pacificpelican.us, Love Birds Consulting, Material Design'
+
+update for version 1.0.3
+April 2, 2015
+-added Tags two-columns and responsive-layout
