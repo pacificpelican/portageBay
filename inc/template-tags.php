@@ -17,23 +17,24 @@ function httpdjmcloud_danieljmckeown_com_paging_nav() {
 		return;
 	}
 	?>
+	<?php if ( get_next_posts_link() ): ?>
 	<ul class="collapsible" id="older-posts-area">
-	<?php if ( get_next_posts_link() ) : ?>
         <li>
           <div class="collapsible-header">
 			<?php next_posts_link( __( '<span class="meta-nav"><i class="mdi-navigation-arrow-back"></i></span> Older posts', 'httpdjmcloud-danieljmckeown-com' ) ); ?>
 			</div>
         </li>
+    </ul>
     <?php endif; ?>
-    </ul><!-- .collapsible -->
-    <ul class="collapsible" id="newer-posts-area">
+    <!-- .collapsible -->
     <?php if ( get_previous_posts_link() ) : ?>
+     <ul class="collapsible" id="newer-posts-area">
         <li>
           <div class="collapsible-header">
 			<?php previous_posts_link( __( '<span class="meta-nav"><i class="mdi-navigation-arrow-forward"></i></span> Newer posts', 'httpdjmcloud-danieljmckeown-com' ) ); ?>
         </li>
+         </ul><!-- #newer-posts-area -->
        <?php endif; ?>
-      </ul><!-- #newer-posts-area -->
 	<?php
 }
 endif;
@@ -60,15 +61,15 @@ function httpdjmcloud_danieljmckeown_com_post_nav() {
 				previous_post_link( '<div class="nav-previous">%link</div>', _x( '<span class="meta-nav">&larr;</span>&nbsp;%title', 'Previous post link', 'httpdjmcloud-danieljmckeown-com' ) );
 			?>
 		         </div><!-- .card-content -->
-			 
+
 		<div class="card-content grey-text">
-		<?php 
+		<?php
 		next_post_link( '<div class="nav-next">%link</div>', _x( '%title&nbsp;<span class="meta-nav">&rarr;</span>', 'Next post link', 'httpdjmcloud-danieljmckeown-com' ) );
 		?>
 		</div>
 			 </div>
 	     </div>
-	
+
 </div>
 	<?php
 }
