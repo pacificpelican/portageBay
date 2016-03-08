@@ -7,5 +7,3 @@ This theme used the [MaterializeCSS](https://github.com/Dogfalo/materialize) pro
 The design buzzwords "bold" and "intentional" certainly apply to this large-text, brightly-colored, mobile-responsive theme--clearly it's influenced by [Material Design](http://www.google.com/design/spec/material-design/introduction.html) from Google.
 
 More information can be found in the [style.css file](style.css) file.
-
-[![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/pacificpelican/portageBay?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
